@@ -3,7 +3,7 @@
 # 👋 Hello! I'm **Pablo Sergio Loyola Tantaruna**
 [![GitHub followers](https://img.shields.io/github/followers/Pablo-Loyola-Tantaruna?style=social)](https://github.com/Pablo-Loyola-Tantaruna)
 ![Profile Views](https://komarev.com/ghpvc/?username=Pablo-Loyola-Tantaruna&color=blueviolet)
-[![Wakatime](https://wakatime.com/badge/user/your-wakatime-username.svg)](https://wakatime.com/@your-wakatime-username)
+[![Wakatime](https://wakatime.com/badge/user/Sergio0902004.svg)](https://wakatime.com/@Sergio0902004)
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" />
