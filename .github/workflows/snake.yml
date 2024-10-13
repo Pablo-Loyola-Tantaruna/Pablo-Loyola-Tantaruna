@@ -1,0 +1,23 @@
+name: Generate Snake Animation
+
+on:
+  schedule: 
+    - cron: "0 0 * * *"  # Ejecuta todos los días a medianoche UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@v2
+        with:
+          github_user_name: Pablo-Loyola-Tantaruna
+          outputs: dist/snake.svg
+
+      - name: Actualizar el SVG de la serpiente en el repositorio
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
